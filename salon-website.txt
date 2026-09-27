@@ -1,0 +1,1400 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Raghu’s Maxwell Unisex Salon | Premium Salon in Gorakhpur</title>
+  <meta name="description" content="The Raghu’s Maxwell Unisex Salon in Betiahata, Gorakhpur offers professional hair, skin, makeup, bridal, and grooming services. Open 8:00 AM to 11:00 PM daily." />
+  <meta name="keywords" content="Salon in Gorakhpur, Unisex Salon Betiahata, Bridal Makeup Gorakhpur, Hair Smoothening, Keratin Treatment, Grooming Salon Gorakhpur, The Raghus Maxwell" />
+  <meta name="theme-color" content="#0d0d0d" />
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="business.business" />
+  <meta property="og:title" content="The Raghu’s Maxwell Unisex Salon | Gorakhpur" />
+  <meta property="og:description" content="Look Good • Feel Good • Always. Premium hair, skin, makeup, bridal and grooming services in Betiahata, Gorakhpur. Open 8:00 AM – 11:00 PM." />
+  <meta property="og:url" content="https://theraghusmaxwellsalon.com" />
+
+  <!-- Google Fonts: Cormorant Garamond & Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              black: '#070707',
+              dark: '#0e0e0e',
+              card: '#141414',
+              cardBorder: '#292524',
+              gold: '#D4AF37',
+              goldLight: '#F7E7A9',
+              goldMuted: '#9B7A27',
+              goldDark: '#755C18',
+            }
+          },
+          fontFamily: {
+            serif: ['"Cormorant Garamond"', 'serif'],
+            sans: ['"Montserrat"', 'sans-serif'],
+          },
+          backgroundImage: {
+            'gold-gradient': 'linear-gradient(135deg, #FBF0B9 0%, #D4AF37 50%, #9B7A27 100%)',
+            'gold-border-gradient': 'linear-gradient(to right, transparent, #D4AF37, transparent)',
+            'dark-radial': 'radial-gradient(circle at 50% 20%, rgba(212, 175, 55, 0.08) 0%, rgba(7, 7, 7, 1) 75%)',
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    /* Custom Gold Accents & Scrollbars */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #070707; }
+    ::-webkit-scrollbar-thumb { background: #332d1d; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #D4AF37; }
+
+    .gold-shimmer-text {
+      background: linear-gradient(120deg, #FFFFFF 0%, #F5E5A4 25%, #D4AF37 60%, #AA8220 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .gold-glow {
+      box-shadow: 0 0 25px -4px rgba(212, 175, 55, 0.22);
+    }
+    .gold-glow-hover:hover {
+      box-shadow: 0 0 35px 2px rgba(212, 175, 55, 0.35);
+      border-color: rgba(212, 175, 55, 0.7);
+    }
+
+    .ornament-line {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+    }
+    .ornament-line::before, .ornament-line::after {
+      content: '';
+      height: 1px;
+      width: 48px;
+      background: linear-gradient(90deg, transparent, #D4AF37);
+    }
+    .ornament-line::after {
+      background: linear-gradient(90deg, #D4AF37, transparent);
+    }
+  </style>
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BeautySalon",
+    "name": "The Raghu’s Maxwell Unisex Salon",
+    "image": "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=1200&q=80",
+    "@id": "https://theraghusmaxwellsalon.com",
+    "url": "https://theraghusmaxwellsalon.com",
+    "telephone": "+919506675555",
+    "priceRange": "₹100 - ₹25000",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "HP Dude Marg, Nav Prabha Bhavan, Betiahata",
+      "addressLocality": "Gorakhpur",
+      "addressRegion": "Uttar Pradesh",
+      "postalCode": "273001",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 26.7538,
+      "longitude": 83.3732
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+        "opens": "08:00",
+        "closes": "23:00"
+      }
+    ],
+    "sameAs": [
+      "https://www.instagram.com",
+      "https://www.facebook.com"
+    ]
+  }
+  </script>
+</head>
+
+<body class="bg-brand-black text-stone-200 font-sans antialiased selection:bg-brand-gold selection:text-brand-black">
+
+  <!-- TOP ANNOUNCEMENT BAR -->
+  <div class="bg-neutral-950 border-b border-brand-cardBorder/60 py-2 text-xs tracking-wider text-stone-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-wrap justify-between items-center gap-2">
+      <div class="flex items-center space-x-6">
+        <a href="tel:+919506675555" class="hover:text-brand-gold transition-colors flex items-center gap-2">
+          <i class="fa-solid fa-phone text-brand-gold text-[11px]"></i> +91 95066 75555
+        </a>
+        <span class="hidden md:inline-flex items-center gap-1.5 text-stone-400">
+          <i class="fa-regular fa-clock text-brand-gold text-[11px]"></i> 8:00 AM – 11:00 PM Daily
+        </span>
+      </div>
+      <div class="flex items-center space-x-4">
+        <span class="text-brand-gold/90 font-medium">“Look Good • Feel Good • Always”</span>
+        <span class="text-stone-600">|</span>
+        <a href="https://wa.me/919506675555?text=Hello%20The%20Raghu's%20Maxwell%20Salon,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank" rel="noopener" class="text-emerald-400 hover:text-emerald-300 transition-colors flex items-center gap-1">
+          <i class="fa-brands fa-whatsapp"></i> Chat Now
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- STICKY NAVBAR -->
+  <header class="sticky top-0 z-50 bg-brand-dark/95 backdrop-blur-md border-b border-brand-gold/20 transition-all duration-300 shadow-xl">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between h-20">
+      
+      <a href="#home" class="flex flex-col group">
+        <div class="flex items-center space-x-2">
+          <span class="text-brand-gold font-serif text-2xl tracking-[0.2em] font-bold uppercase transition group-hover:opacity-90">
+            THE RAGHU’S
+          </span>
+        </div>
+        <div class="flex items-center space-x-1.5">
+          <span class="text-[10px] uppercase font-bold tracking-[0.35em] text-white">MAXWELL</span>
+          <span class="h-1 w-1 rounded-full bg-brand-gold"></span>
+          <span class="text-[9px] uppercase font-medium tracking-[0.25em] text-brand-gold">UNISEX SALON</span>
+        </div>
+      </a>
+
+      <nav class="hidden lg:flex items-center space-x-8 text-sm font-medium tracking-wider uppercase text-stone-300">
+        <a href="#home" class="hover:text-brand-gold transition duration-200">Home</a>
+        <a href="#services" class="hover:text-brand-gold transition duration-200">Services</a>
+        <a href="#pricing" class="hover:text-brand-gold transition duration-200">Price List</a>
+        <a href="#bridal" class="hover:text-brand-gold transition duration-200">Bridal</a>
+        <a href="#gallery" class="hover:text-brand-gold transition duration-200">Gallery</a>
+        <a href="#about" class="hover:text-brand-gold transition duration-200">About Us</a>
+        <a href="#contact" class="hover:text-brand-gold transition duration-200">Contact</a>
+      </nav>
+
+      <div class="hidden sm:flex items-center space-x-3">
+        <a href="https://wa.me/919506675555?text=Hello%20The%20Raghu's%20Maxwell%20Salon,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="border border-brand-gold/60 text-brand-gold hover:bg-brand-gold hover:text-brand-black px-4 py-2.5 rounded text-xs font-semibold tracking-wider uppercase transition-all duration-300 flex items-center gap-2">
+          <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Us
+        </a>
+        <a href="#booking" class="bg-gold-gradient text-neutral-950 font-bold px-5 py-2.5 rounded text-xs tracking-wider uppercase shadow hover:brightness-110 transition-all duration-300 flex items-center gap-2">
+          <i class="fa-regular fa-calendar-check"></i> Book Appointment
+        </a>
+      </div>
+
+      <button id="mobileMenuBtn" aria-label="Toggle Navigation Menu" class="lg:hidden text-stone-300 hover:text-brand-gold p-2">
+        <i class="fa-solid fa-bars text-2xl"></i>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobileMenu" class="hidden lg:hidden bg-brand-card border-b border-brand-gold/30 px-6 py-6 transition-all duration-300">
+      <nav class="flex flex-col space-y-4 text-sm uppercase tracking-wider font-medium text-stone-200">
+        <a href="#home" class="mobile-link hover:text-brand-gold py-1">Home</a>
+        <a href="#services" class="mobile-link hover:text-brand-gold py-1">Services</a>
+        <a href="#pricing" class="mobile-link hover:text-brand-gold py-1">Price List</a>
+        <a href="#bridal" class="mobile-link hover:text-brand-gold py-1">Bridal Special</a>
+        <a href="#gallery" class="mobile-link hover:text-brand-gold py-1">Gallery</a>
+        <a href="#about" class="mobile-link hover:text-brand-gold py-1">About Salon</a>
+        <a href="#contact" class="mobile-link hover:text-brand-gold py-1">Contact & Location</a>
+      </nav>
+      <div class="mt-6 pt-6 border-t border-stone-800 flex flex-col space-y-3">
+        <a href="#booking" class="mobile-link text-center bg-gold-gradient text-neutral-950 font-bold py-3 rounded text-xs uppercase tracking-widest">
+          Book Appointment
+        </a>
+        <a href="https://wa.me/919506675555" target="_blank" rel="noopener" class="text-center border border-brand-gold text-brand-gold py-2.5 rounded text-xs uppercase tracking-widest">
+          <i class="fa-brands fa-whatsapp mr-1"></i> WhatsApp: 9506675555
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section id="home" class="relative min-h-[92vh] flex items-center justify-center bg-dark-radial overflow-hidden">
+    <div class="absolute inset-0 z-0">
+      <img src="https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=2000&q=80" 
+           alt="Luxury Unisex Salon Interior" 
+           class="w-full h-full object-cover object-center opacity-25 filter brightness-75 scale-105 transition-transform duration-1000 ease-out" />
+      <div class="absolute inset-0 bg-gradient-to-t from-brand-black via-brand-black/75 to-transparent"></div>
+      <div class="absolute inset-0 bg-gradient-to-r from-brand-black via-transparent to-brand-black"></div>
+    </div>
+
+    <div class="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 py-24 text-center">
+      
+      <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-brand-gold/40 bg-brand-gold/10 backdrop-blur-md mb-6 animate-pulse">
+        <span class="w-2 h-2 rounded-full bg-brand-gold"></span>
+        <span class="text-xs font-semibold tracking-[0.25em] uppercase text-brand-goldLight">Open Daily: 8:00 AM – 11:00 PM</span>
+      </div>
+
+      <h1 class="text-4xl sm:text-6xl md:text-7xl font-serif font-bold tracking-tight text-white mb-6 uppercase">
+        STYLE. CONFIDENCE. <span class="gold-shimmer-text">YOU.</span>
+      </h1>
+
+      <p class="text-lg sm:text-2xl text-stone-200 font-light tracking-wide mb-4">
+        Premium Unisex Salon Experience in Betiahata, Gorakhpur
+      </p>
+
+      <p class="max-w-2xl mx-auto text-stone-400 text-sm sm:text-base leading-relaxed mb-10 font-normal">
+        Professional hair, skin, makeup, bridal, and grooming services crafted to perfection. Experience world-class styling, bespoke care, and transformative beauty.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="#booking" class="w-full sm:w-auto bg-gold-gradient text-neutral-950 font-bold px-8 py-4 rounded text-xs tracking-[0.2em] uppercase shadow-lg gold-glow-hover transition-all duration-300">
+          Book An Appointment
+        </a>
+        <a href="#services" class="w-full sm:w-auto border border-brand-gold/60 text-brand-gold hover:bg-brand-gold/10 px-8 py-4 rounded text-xs tracking-[0.2em] uppercase transition-all duration-300">
+          View Services & Menu
+        </a>
+      </div>
+
+      <div class="mt-16 pt-8 border-t border-brand-gold/20 grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+        <div>
+          <p class="text-2xl sm:text-3xl font-serif font-bold text-brand-gold">100%</p>
+          <p class="text-xs uppercase tracking-wider text-stone-400 mt-1">Hygienic Care</p>
+        </div>
+        <div>
+          <p class="text-2xl sm:text-3xl font-serif font-bold text-brand-gold">Top Tier</p>
+          <p class="text-xs uppercase tracking-wider text-stone-400 mt-1">Global Products</p>
+        </div>
+        <div>
+          <p class="text-2xl sm:text-3xl font-serif font-bold text-brand-gold">Certified</p>
+          <p class="text-xs uppercase tracking-wider text-stone-400 mt-1">Master Stylists</p>
+        </div>
+        <div>
+          <p class="text-2xl sm:text-3xl font-serif font-bold text-brand-gold">15 Hours</p>
+          <p class="text-xs uppercase tracking-wider text-stone-400 mt-1">Open 8 AM – 11 PM</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION (Body & Spa Removed, 5 Core Services Clean Layout) -->
+  <section id="services" class="py-24 bg-brand-black relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="ornament-line mb-3">
+          <span class="text-brand-gold text-xs font-bold uppercase tracking-[0.3em]">Artistry & Precision</span>
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-4">Our Premium Services</h2>
+        <p class="text-stone-400 text-sm sm:text-base">
+          Tailored hair artistry, rejuvenating skincare rituals, flawless bridal transformations, and refined grooming standards.
+        </p>
+      </div>
+
+      <!-- Service Cards Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Hair Services -->
+        <div class="bg-brand-card border border-brand-cardBorder rounded-lg overflow-hidden group hover:border-brand-gold/60 transition-all duration-300 flex flex-col">
+          <div class="relative h-56 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1562322140-8baeececf3df?auto=format&fit=crop&w=800&q=80" alt="Hair Services" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-brand-card via-transparent to-transparent"></div>
+            <div class="absolute top-4 right-4 bg-brand-black/80 border border-brand-gold/50 p-2.5 rounded-full text-brand-gold">
+              <i class="fa-solid fa-scissors"></i>
+            </div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-serif font-bold text-brand-goldLight mb-2">Hair Services</h3>
+              <p class="text-stone-400 text-xs sm:text-sm leading-relaxed mb-4">
+                Precision haircuts, modern styling, Keratin, Smoothening, Hair Botox, scalp therapy, and high-fashion hair coloring.
+              </p>
+            </div>
+            <a href="#pricing" onclick="filterCategory('hair')" class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-gold group-hover:text-brand-goldLight transition-colors">
+              View Services <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Skin & Facial -->
+        <div class="bg-brand-card border border-brand-cardBorder rounded-lg overflow-hidden group hover:border-brand-gold/60 transition-all duration-300 flex flex-col">
+          <div class="relative h-56 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?auto=format&fit=crop&w=800&q=80" alt="Skin and Facial Services" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-brand-card via-transparent to-transparent"></div>
+            <div class="absolute top-4 right-4 bg-brand-black/80 border border-brand-gold/50 p-2.5 rounded-full text-brand-gold">
+              <i class="fa-solid fa-wand-magic-sparkles"></i>
+            </div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-serif font-bold text-brand-goldLight mb-2">Skin & Facial</h3>
+              <p class="text-stone-400 text-xs sm:text-sm leading-relaxed mb-4">
+                Hydra facials, O3+ glow rituals, Gold & Diamond treatments, detox detan, and customized acne relief solutions.
+              </p>
+            </div>
+            <a href="#pricing" onclick="filterCategory('skin')" class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-gold group-hover:text-brand-goldLight transition-colors">
+              View Services <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Makeup Services -->
+        <div class="bg-brand-card border border-brand-cardBorder rounded-lg overflow-hidden group hover:border-brand-gold/60 transition-all duration-300 flex flex-col">
+          <div class="relative h-56 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?auto=format&fit=crop&w=800&q=80" alt="Professional Makeup" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-brand-card via-transparent to-transparent"></div>
+            <div class="absolute top-4 right-4 bg-brand-black/80 border border-brand-gold/50 p-2.5 rounded-full text-brand-gold">
+              <i class="fa-solid fa-gem"></i>
+            </div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-serif font-bold text-brand-goldLight mb-2">Makeup Services</h3>
+              <p class="text-stone-400 text-xs sm:text-sm leading-relaxed mb-4">
+                Party makeup, HD & Airbrush formulations, engagement glam, saree draping, lash extensions, and expert nail artistry.
+              </p>
+            </div>
+            <a href="#pricing" onclick="filterCategory('makeup')" class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-gold group-hover:text-brand-goldLight transition-colors">
+              View Services <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Men's Grooming -->
+        <div class="bg-brand-card border border-brand-cardBorder rounded-lg overflow-hidden group hover:border-brand-gold/60 transition-all duration-300 flex flex-col">
+          <div class="relative h-56 overflow-hidden">
+            <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=800&q=80" alt="Men's Grooming" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+            <div class="absolute inset-0 bg-gradient-to-t from-brand-card via-transparent to-transparent"></div>
+            <div class="absolute top-4 right-4 bg-brand-black/80 border border-brand-gold/50 p-2.5 rounded-full text-brand-gold">
+              <i class="fa-solid fa-user-tie"></i>
+            </div>
+          </div>
+          <div class="p-6 flex-1 flex flex-col justify-between">
+            <div>
+              <h3 class="text-xl font-serif font-bold text-brand-goldLight mb-2">Men’s Grooming</h3>
+              <p class="text-stone-400 text-xs sm:text-sm leading-relaxed mb-4">
+                Bespoke beard trimming, hot towel luxury shaves, head massage therapy, under-eye revitalizing, and detan care.
+              </p>
+            </div>
+            <a href="#pricing" onclick="filterCategory('men')" class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-gold group-hover:text-brand-goldLight transition-colors">
+              View Services <i class="fa-solid fa-arrow-right text-[10px]"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Bridal Packages -->
+        <div class="bg-brand-card border border-brand-cardBorder rounded-lg overflow-hidden group hover:border-brand-gold/60 transition-all duration-300 flex flex-col md:col-span-2 lg:col-span-2">
+          <div class="grid grid-cols-1 md:grid-cols-2 h-full">
+            <div class="relative h-56 md:h-full overflow-hidden">
+              <img src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80" alt="Bridal Packages" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+              <div class="absolute top-4 right-4 bg-brand-black/80 border border-brand-gold/50 p-2.5 rounded-full text-brand-gold">
+                <i class="fa-solid fa-crown"></i>
+              </div>
+            </div>
+            <div class="p-6 flex flex-col justify-between">
+              <div>
+                <span class="text-brand-gold text-[10px] font-bold uppercase tracking-widest">Royal Collection</span>
+                <h3 class="text-xl font-serif font-bold text-brand-goldLight mb-2">Bridal Packages</h3>
+                <p class="text-stone-400 text-xs sm:text-sm leading-relaxed mb-4">
+                  Head-to-toe bridal couture care: Pre-bridal glow rituals, wedding day makeup, Mehendi artistry, draping, and hair styling.
+                </p>
+              </div>
+              <a href="#bridal" class="inline-flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-gold group-hover:text-brand-goldLight transition-colors">
+                Explore Bridal Packages <i class="fa-solid fa-arrow-right text-[10px]"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SEARCHABLE & FILTERABLE PRICE LIST (Spa Removed) -->
+  <section id="pricing" class="py-24 bg-brand-dark border-y border-brand-cardBorder/70 relative">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <div class="ornament-line mb-3">
+          <span class="text-brand-gold text-xs font-bold uppercase tracking-[0.3em]">Transparent Pricing</span>
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-4">Salon Service Menu</h2>
+        <p class="text-stone-400 text-sm">
+          Browse our complete service catalog with direct transparent rates. Search by service name or filter by department.
+        </p>
+      </div>
+
+      <!-- Filters -->
+      <div class="mb-10 flex flex-col gap-5">
+        <div class="relative max-w-md mx-auto w-full">
+          <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-brand-gold/60 text-sm"></i>
+          <input 
+            type="text" 
+            id="priceSearchInput" 
+            placeholder="Search service (e.g. Keratin, Facial, Beard, Root Touch-Up)..." 
+            class="w-full pl-11 pr-4 py-3 bg-brand-card border border-brand-cardBorder focus:border-brand-gold rounded-lg text-sm text-white placeholder-stone-500 focus:outline-none transition-colors"
+          />
+        </div>
+
+        <div class="flex flex-wrap items-center justify-center gap-2 text-xs uppercase tracking-wider font-semibold" id="categoryFilterContainer">
+          <button onclick="filterCategory('all')" data-cat="all" class="filter-btn active-filter px-4 py-2 rounded-full border border-brand-gold bg-brand-gold text-brand-black transition">ALL</button>
+          <button onclick="filterCategory('hair')" data-cat="hair" class="filter-btn px-4 py-2 rounded-full border border-brand-cardBorder bg-brand-card text-stone-300 hover:border-brand-gold/50 transition">HAIR</button>
+          <button onclick="filterCategory('skin')" data-cat="skin" class="filter-btn px-4 py-2 rounded-full border border-brand-cardBorder bg-brand-card text-stone-300 hover:border-brand-gold/50 transition">SKIN</button>
+          <button onclick="filterCategory('makeup')" data-cat="makeup" class="filter-btn px-4 py-2 rounded-full border border-brand-cardBorder bg-brand-card text-stone-300 hover:border-brand-gold/50 transition">MAKEUP</button>
+          <button onclick="filterCategory('men')" data-cat="men" class="filter-btn px-4 py-2 rounded-full border border-brand-cardBorder bg-brand-card text-stone-300 hover:border-brand-gold/50 transition">MEN’S GROOMING</button>
+          <button onclick="filterCategory('bridal')" data-cat="bridal" class="filter-btn px-4 py-2 rounded-full border border-brand-cardBorder bg-brand-card text-stone-300 hover:border-brand-gold/50 transition">BRIDAL</button>
+        </div>
+      </div>
+
+      <div id="pricingGrid" class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <!-- Rendered via JS -->
+      </div>
+
+      <div class="mt-8 text-center text-xs text-stone-500">
+        * Taxes and consultation included. Prices for specialized chemical treatments like Keratin & Smoothening may vary slightly based on hair density and length.
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="py-24 bg-brand-black relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-md lg:max-w-none">
+            <div class="border-2 border-brand-gold/40 rounded-lg p-2 bg-brand-card/40 backdrop-blur">
+              <img src="https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?auto=format&fit=crop&w=1000&q=80" alt="Salon Stylist at Work" class="rounded w-full h-[450px] object-cover" />
+            </div>
+            <div class="absolute -bottom-6 -right-4 sm:right-6 bg-brand-dark border border-brand-gold p-4 rounded-lg shadow-2xl flex items-center gap-3">
+              <div class="w-12 h-12 rounded-full bg-brand-gold/10 border border-brand-gold flex items-center justify-center text-brand-gold text-xl">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div>
+                <p class="text-xs uppercase tracking-wider text-stone-400">Convenient Hours</p>
+                <p class="text-sm font-bold text-white uppercase font-serif">8:00 AM – 11:00 PM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7">
+          <div class="ornament-line !justify-start mb-3">
+            <span class="text-brand-gold text-xs font-bold uppercase tracking-[0.3em]">About The Raghu’s Maxwell</span>
+          </div>
+          <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-6 leading-tight">
+            Experience Beauty.<br><span class="gold-shimmer-text">Experience Confidence.</span>
+          </h2>
+          <p class="text-stone-300 text-sm sm:text-base leading-relaxed mb-6 font-normal">
+            Located in the heart of Betiahata at Nav Prabha Bhavan, <strong class="text-white">The Raghu’s Maxwell Unisex Salon</strong> is Gorakhpur's benchmark for bespoke hairstyling, aesthetic skincare, and premier bridal transformations.
+          </p>
+          <p class="text-stone-400 text-sm leading-relaxed mb-8">
+            Operating from <strong class="text-brand-goldLight">8:00 AM to 11:00 PM daily</strong>, we provide an elevated, hygienic, and welcoming environment where women and men receive personalized attention from experienced stylists and beauticians without disrupting busy daily schedules.
+          </p>
+
+          <!-- Highlights Checkmarks -->
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 mb-8 text-xs sm:text-sm font-medium text-stone-200">
+            <div class="flex items-center gap-2.5">
+              <i class="fa-solid fa-check-circle text-brand-gold text-base"></i>
+              <span>Professional Services</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <i class="fa-solid fa-check-circle text-brand-gold text-base"></i>
+              <span>Premium Products (L'Oréal, O3+, etc.)</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <i class="fa-solid fa-check-circle text-brand-gold text-base"></i>
+              <span>Skilled & Certified Stylists</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <i class="fa-solid fa-check-circle text-brand-gold text-base"></i>
+              <span>100% Hygienic Sanitized Tools</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <i class="fa-solid fa-check-circle text-brand-gold text-base"></i>
+              <span>Dedicated Unisex Services</span>
+            </div>
+            <div class="flex items-center gap-2.5">
+              <i class="fa-solid fa-check-circle text-brand-gold text-base"></i>
+              <span>Personalized Consultations</span>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap gap-4">
+            <a href="#booking" class="bg-gold-gradient text-neutral-950 font-bold px-7 py-3 rounded text-xs tracking-widest uppercase shadow">
+              Reserve Consultation
+            </a>
+            <a href="tel:+919506675555" class="border border-stone-700 hover:border-brand-gold text-stone-300 hover:text-white px-7 py-3 rounded text-xs tracking-widest uppercase transition">
+              <i class="fa-solid fa-phone mr-1.5 text-brand-gold"></i> Direct Call
+            </a>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US -->
+  <section class="py-20 bg-brand-dark/60 border-t border-brand-cardBorder">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-14">
+        <div class="ornament-line mb-3">
+          <span class="text-brand-gold text-xs font-bold uppercase tracking-[0.3em]">Our Commitment</span>
+        </div>
+        <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white mb-3">Why Choose Us</h2>
+        <p class="text-stone-400 text-sm">Experience the difference that genuine dedication and premium luxury deliver.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        
+        <div class="bg-brand-card p-6 rounded-lg border border-brand-cardBorder hover:border-brand-gold/60 transition-all duration-300">
+          <div class="w-12 h-12 rounded-lg bg-brand-gold/10 border border-brand-gold/40 flex items-center justify-center text-brand-gold text-xl mb-4">
+            <i class="fa-solid fa-user-graduate"></i>
+          </div>
+          <h3 class="text-lg font-serif font-bold text-brand-goldLight mb-2">Professional Expertise</h3>
+          <p class="text-stone-400 text-xs sm:text-sm leading-relaxed">
+            Our team comprises trained cosmetologists and hair masters educated in modern cutting, coloring, and styling methodologies.
+          </p>
+        </div>
+
+        <div class="bg-brand-card p-6 rounded-lg border border-brand-cardBorder hover:border-brand-gold/60 transition-all duration-300">
+          <div class="w-12 h-12 rounded-lg bg-brand-gold/10 border border-brand-gold/40 flex items-center justify-center text-brand-gold text-xl mb-4">
+            <i class="fa-solid fa-bottle-droplet"></i>
+          </div>
+          <h3 class="text-lg font-serif font-bold text-brand-goldLight mb-2">Premium Products</h3>
+          <p class="text-stone-400 text-xs sm:text-sm leading-relaxed">
+            We exclusively utilize verified, skin-safe, salon-grade international products to guarantee radiant, long-lasting results.
+          </p>
+        </div>
+
+        <div class="bg-brand-card p-6 rounded-lg border border-brand-cardBorder hover:border-brand-gold/60 transition-all duration-300">
+          <div class="w-12 h-12 rounded-lg bg-brand-gold/10 border border-brand-gold/40 flex items-center justify-center text-brand-gold text-xl mb-4">
+            <i class="fa-solid fa-wand-magic"></i>
+          </div>
+          <h3 class="text-lg font-serif font-bold text-brand-goldLight mb-2">Modern Techniques</h3>
+          <p class="text-stone-400 text-xs sm:text-sm leading-relaxed">
+            From Hydra dermabrasion to airbrush makeup and hair botox, we bring high-tech beauty innovations to Gorakhpur.
+          </p>
+        </div>
+
+        <div class="bg-brand-card p-6 rounded-lg border border-brand-cardBorder hover:border-brand-gold/60 transition-all duration-300">
+          <div class="w-12 h-12 rounded-lg bg-brand-gold/10 border border-brand-gold/40 flex items-center justify-center text-brand-gold text-xl mb-4">
+            <i class="fa-solid fa-heart"></i>
+          </div>
+          <h3 class="text-lg font-serif font-bold text-brand-goldLight mb-2">Personalized Care</h3>
+          <p class="text-stone-400 text-xs sm:text-sm leading-relaxed">
+            Every client is unique. We examine skin tone, hair texture, and your personal vision to tailor every session individually.
+          </p>
+        </div>
+
+        <div class="bg-brand-card p-6 rounded-lg border border-brand-cardBorder hover:border-brand-gold/60 transition-all duration-300">
+          <div class="w-12 h-12 rounded-lg bg-brand-gold/10 border border-brand-gold/40 flex items-center justify-center text-brand-gold text-xl mb-4">
+            <i class="fa-solid fa-pump-medical"></i>
+          </div>
+          <h3 class="text-lg font-serif font-bold text-brand-goldLight mb-2">Hygienic Environment</h3>
+          <p class="text-stone-400 text-xs sm:text-sm leading-relaxed">
+            Sterilized equipment, single-use disposables, and clinically clean workstations ensure complete peace of mind.
+          </p>
+        </div>
+
+        <div class="bg-brand-card p-6 rounded-lg border border-brand-cardBorder hover:border-brand-gold/60 transition-all duration-300">
+          <div class="w-12 h-12 rounded-lg bg-brand-gold/10 border border-brand-gold/40 flex items-center justify-center text-brand-gold text-xl mb-4">
+            <i class="fa-solid fa-couch"></i>
+          </div>
+          <h3 class="text-lg font-serif font-bold text-brand-goldLight mb-2">Luxury Experience</h3>
+          <p class="text-stone-400 text-xs sm:text-sm leading-relaxed">
+            Relax in a welcoming ambiance with plush styling chairs, soothing lounge music, and attentive hospitality.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- BRIDAL SECTION -->
+  <section id="bridal" class="py-24 bg-brand-black relative overflow-hidden">
+    <div class="absolute -top-40 -right-40 w-96 h-96 bg-brand-gold/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 relative z-10">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="ornament-line mb-3">
+          <span class="text-brand-gold text-xs font-bold uppercase tracking-[0.3em]">The Royal Bride</span>
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-4">
+          Your Special Day. <span class="gold-shimmer-text">Our Special Care.</span>
+        </h2>
+        <p class="text-stone-300 text-sm sm:text-base leading-relaxed">
+          Crafting unforgettable bridal journeys with bespoke makeup, pre-bridal nourishment, couture hair designs, and royal draping.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div class="bg-brand-card border border-brand-cardBorder rounded-lg p-6 hover:border-brand-gold transition duration-300">
+          <div class="relative h-64 rounded overflow-hidden mb-4">
+            <img src="https://images.unsplash.com/photo-1546804784-896d0dca3805?auto=format&fit=crop&w=800&q=80" alt="Bridal Makeup Artistry" class="w-full h-full object-cover" />
+            <span class="absolute top-3 left-3 bg-brand-black/90 text-brand-gold text-[10px] font-bold px-2.5 py-1 rounded border border-brand-gold/40 uppercase">Signature</span>
+          </div>
+          <h3 class="text-xl font-serif font-bold text-white mb-2">Bridal Makeup & Styling</h3>
+          <p class="text-stone-400 text-xs sm:text-sm mb-4">
+            Flawless HD & Airbrush application crafted to stay intact throughout rituals, tear-proof, and radiant in high-definition photography.
+          </p>
+          <div class="text-brand-gold font-serif text-lg font-bold">From ₹15,000</div>
+        </div>
+
+        <div class="bg-brand-card border border-brand-cardBorder rounded-lg p-6 hover:border-brand-gold transition duration-300">
+          <div class="relative h-64 rounded overflow-hidden mb-4">
+            <img src="https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=800&q=80" alt="Pre-Bridal Skincare and Mehendi" class="w-full h-full object-cover" />
+            <span class="absolute top-3 left-3 bg-brand-black/90 text-brand-gold text-[10px] font-bold px-2.5 py-1 rounded border border-brand-gold/40 uppercase">Glow Rituals</span>
+          </div>
+          <h3 class="text-xl font-serif font-bold text-white mb-2">Pre-Bridal & Mehendi</h3>
+          <p class="text-stone-400 text-xs sm:text-sm mb-4">
+            Curated pre-wedding care including skin polishing, fruit/gold facials, cleanups, body detan, and intricate Mehendi motifs.
+          </p>
+          <div class="text-brand-gold font-serif text-lg font-bold">From ₹3,000</div>
+        </div>
+
+        <div class="bg-brand-card border-2 border-brand-gold/60 rounded-lg p-6 relative bg-gradient-to-b from-brand-card to-neutral-900 shadow-xl">
+          <span class="absolute -top-3 right-6 bg-brand-gold text-brand-black text-[10px] font-bold uppercase tracking-widest px-3 py-1 rounded">All Inclusive</span>
+          <div class="relative h-64 rounded overflow-hidden mb-4">
+            <img src="https://images.unsplash.com/photo-1596704017254-9b121068fb31?auto=format&fit=crop&w=800&q=80" alt="Full Bridal Package" class="w-full h-full object-cover" />
+          </div>
+          <h3 class="text-xl font-serif font-bold text-brand-goldLight mb-2">Full Bridal Package</h3>
+          <p class="text-stone-300 text-xs sm:text-sm mb-4">
+            Complete royal curation: Wedding Makeup + Bridal Hair Style + Mehendi + Bridal Facial + Body Polishing + Saree/Lehenga Draping.
+          </p>
+          <div class="text-brand-gold font-serif text-2xl font-bold">₹25,000 <span class="text-xs font-sans text-stone-400 font-normal">Complete Package</span></div>
+        </div>
+      </div>
+
+      <div class="bg-brand-dark border border-brand-gold/40 rounded-xl p-8 sm:p-10 flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+        <div>
+          <h4 class="text-2xl font-serif font-bold text-white">Planning Your Wedding Day Glamour?</h4>
+          <p class="text-stone-400 text-sm mt-1">Book an in-person bridal consultation with our master bridal artists to discuss custom styles and dates.</p>
+        </div>
+        <a href="#booking" onclick="prefillService('Full Bridal Package')" class="bg-gold-gradient text-neutral-950 font-bold px-8 py-3.5 rounded text-xs uppercase tracking-widest hover:brightness-110 transition whitespace-nowrap">
+          Book Your Bridal Consultation
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section id="gallery" class="py-24 bg-brand-dark/80 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <div class="ornament-line mb-3">
+          <span class="text-brand-gold text-xs font-bold uppercase tracking-[0.3em]">Visual Showcase</span>
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-4">Our Salon Gallery</h2>
+        <p class="text-stone-400 text-sm">
+          A glimpse into the styles, makeup artistry, grooming transformations, and contemporary ambiance of The Raghu’s Maxwell.
+        </p>
+      </div>
+
+      <div class="flex flex-wrap justify-center gap-2 mb-10 text-xs font-semibold uppercase tracking-wider">
+        <button onclick="filterGallery('all')" class="gallery-btn active-g-btn px-4 py-1.5 rounded-full border border-brand-gold bg-brand-gold text-brand-black transition" data-gcat="all">All</button>
+        <button onclick="filterGallery('hair')" class="gallery-btn px-4 py-1.5 rounded-full border border-stone-800 bg-brand-card text-stone-300 hover:border-brand-gold/40 transition" data-gcat="hair">Hair</button>
+        <button onclick="filterGallery('makeup')" class="gallery-btn px-4 py-1.5 rounded-full border border-stone-800 bg-brand-card text-stone-300 hover:border-brand-gold/40 transition" data-gcat="makeup">Makeup</button>
+        <button onclick="filterGallery('bridal')" class="gallery-btn px-4 py-1.5 rounded-full border border-stone-800 bg-brand-card text-stone-300 hover:border-brand-gold/40 transition" data-gcat="bridal">Bridal</button>
+        <button onclick="filterGallery('men')" class="gallery-btn px-4 py-1.5 rounded-full border border-stone-800 bg-brand-card text-stone-300 hover:border-brand-gold/40 transition" data-gcat="men">Men's Grooming</button>
+        <button onclick="filterGallery('skin')" class="gallery-btn px-4 py-1.5 rounded-full border border-stone-800 bg-brand-card text-stone-300 hover:border-brand-gold/40 transition" data-gcat="skin">Skin</button>
+        <button onclick="filterGallery('interior')" class="gallery-btn px-4 py-1.5 rounded-full border border-stone-800 bg-brand-card text-stone-300 hover:border-brand-gold/40 transition" data-gcat="interior">Salon Interior</button>
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6" id="galleryContainer">
+        
+        <div class="gallery-item group relative h-72 rounded-lg overflow-hidden cursor-pointer border border-brand-cardBorder" data-gcat="hair" onclick="openLightbox('https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=1200&q=80', 'Signature Hair Coloring & Highlights')">
+          <img src="https://images.unsplash.com/photo-1560869713-7d0a29430803?auto=format&fit=crop&w=800&q=80" alt="Hair Coloring and Highlights" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+            <span class="text-xs uppercase tracking-widest text-brand-gold">Hair Artistry</span>
+            <h4 class="text-lg font-serif font-bold text-white">Signature Hair Coloring & Highlights</h4>
+            <div class="mt-2 text-stone-300 text-xs flex items-center gap-1.5"><i class="fa-solid fa-expand text-brand-gold"></i> Click to Enlarge</div>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative h-72 rounded-lg overflow-hidden cursor-pointer border border-brand-cardBorder" data-gcat="makeup" onclick="openLightbox('https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=1200&q=80', 'Airbrush Evening Glam Makeup')">
+          <img src="https://images.unsplash.com/photo-1512496015851-a90fb38ba796?auto=format&fit=crop&w=800&q=80" alt="Evening Glam Makeup" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+            <span class="text-xs uppercase tracking-widest text-brand-gold">Makeup</span>
+            <h4 class="text-lg font-serif font-bold text-white">Airbrush Evening Glam Makeup</h4>
+            <div class="mt-2 text-stone-300 text-xs flex items-center gap-1.5"><i class="fa-solid fa-expand text-brand-gold"></i> Click to Enlarge</div>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative h-72 rounded-lg overflow-hidden cursor-pointer border border-brand-cardBorder" data-gcat="bridal" onclick="openLightbox('https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=1200&q=80', 'Royal Traditional Bridal Look')">
+          <img src="https://images.unsplash.com/photo-1583391733956-3750e0ff4e8b?auto=format&fit=crop&w=800&q=80" alt="Bridal Look" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+            <span class="text-xs uppercase tracking-widest text-brand-gold">Bridal</span>
+            <h4 class="text-lg font-serif font-bold text-white">Royal Traditional Bridal Look</h4>
+            <div class="mt-2 text-stone-300 text-xs flex items-center gap-1.5"><i class="fa-solid fa-expand text-brand-gold"></i> Click to Enlarge</div>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative h-72 rounded-lg overflow-hidden cursor-pointer border border-brand-cardBorder" data-gcat="men" onclick="openLightbox('https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=1200&q=80', 'Precision Beard Sculpting & Styling')">
+          <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=800&q=80" alt="Beard Sculpting" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+            <span class="text-xs uppercase tracking-widest text-brand-gold">Men's Grooming</span>
+            <h4 class="text-lg font-serif font-bold text-white">Precision Beard Sculpting & Styling</h4>
+            <div class="mt-2 text-stone-300 text-xs flex items-center gap-1.5"><i class="fa-solid fa-expand text-brand-gold"></i> Click to Enlarge</div>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative h-72 rounded-lg overflow-hidden cursor-pointer border border-brand-cardBorder" data-gcat="skin" onclick="openLightbox('https://images.unsplash.com/photo-1512290900672-1f4155b41058?auto=format&fit=crop&w=1200&q=80', 'Hydra Skin Rejuvenation Therapy')">
+          <img src="https://images.unsplash.com/photo-1512290900672-1f4155b41058?auto=format&fit=crop&w=800&q=80" alt="Skin Rejuvenation Therapy" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+            <span class="text-xs uppercase tracking-widest text-brand-gold">Skin Rituals</span>
+            <h4 class="text-lg font-serif font-bold text-white">Hydra Skin Rejuvenation Therapy</h4>
+            <div class="mt-2 text-stone-300 text-xs flex items-center gap-1.5"><i class="fa-solid fa-expand text-brand-gold"></i> Click to Enlarge</div>
+          </div>
+        </div>
+
+        <div class="gallery-item group relative h-72 rounded-lg overflow-hidden cursor-pointer border border-brand-cardBorder" data-gcat="interior" onclick="openLightbox('https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=1200&q=80', 'Luxurious Salon Floor & Styling Stations')">
+          <img src="https://images.unsplash.com/photo-1521590832167-7bcbfaa6381f?auto=format&fit=crop&w=800&q=80" alt="Salon Floor" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" />
+          <div class="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex flex-col justify-end p-6">
+            <span class="text-xs uppercase tracking-widest text-brand-gold">Salon Interior</span>
+            <h4 class="text-lg font-serif font-bold text-white">Luxurious Salon Floor & Styling Stations</h4>
+            <div class="mt-2 text-stone-300 text-xs flex items-center gap-1.5"><i class="fa-solid fa-expand text-brand-gold"></i> Click to Enlarge</div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LIGHTBOX MODAL -->
+  <div id="lightboxModal" class="fixed inset-0 z-50 bg-black/95 hidden items-center justify-center p-4">
+    <button onclick="closeLightbox()" class="absolute top-6 right-6 text-brand-gold hover:text-white text-3xl focus:outline-none">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <div class="max-w-4xl max-h-[85vh] flex flex-col items-center">
+      <img id="lightboxImg" src="" alt="Enlarged View" class="max-h-[75vh] w-auto rounded border border-brand-gold/40 shadow-2xl" />
+      <p id="lightboxCaption" class="mt-4 text-center font-serif text-lg text-stone-200"></p>
+    </div>
+  </div>
+
+  <!-- BOOKING SECTION (Body & Spa options removed from select) -->
+  <section id="booking" class="py-24 bg-brand-black relative">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center mb-12">
+        <div class="ornament-line mb-3">
+          <span class="text-brand-gold text-xs font-bold uppercase tracking-[0.3em]">Easy Reservations</span>
+        </div>
+        <h2 class="text-3xl sm:text-5xl font-serif font-bold text-white mb-3">Book Your Appointment</h2>
+        <p class="text-stone-400 text-sm">
+          Appointments available daily from <span class="text-brand-gold">8:00 AM to 11:00 PM</span>. Reserve online or via WhatsApp.
+        </p>
+      </div>
+
+      <div class="bg-brand-card border border-brand-cardBorder rounded-xl p-8 sm:p-12 shadow-2xl relative overflow-hidden">
+        
+        <form id="appointmentForm" action="https://formsubmit.co/ajax/Raghusharma911@gmail.com" method="POST" class="space-y-6">
+          
+          <input type="hidden" name="_subject" value="New Salon Appointment Request!">
+          <input type="hidden" name="_captcha" value="false">
+          <input type="hidden" name="_template" value="table">
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            
+            <div>
+              <label for="fullName" class="block text-xs uppercase font-bold tracking-wider text-brand-gold mb-2">Full Name *</label>
+              <input 
+                type="text" 
+                id="fullName" 
+                name="Customer_Name"
+                required 
+                placeholder="e.g. Rahul Sharma / Priya Singh" 
+                class="w-full px-4 py-3 bg-neutral-900 border border-brand-cardBorder focus:border-brand-gold rounded text-sm text-white placeholder-stone-600 focus:outline-none"
+              />
+            </div>
+
+            <div>
+              <label for="mobileNumber" class="block text-xs uppercase font-bold tracking-wider text-brand-gold mb-2">Mobile Number *</label>
+              <input 
+                type="tel" 
+                id="mobileNumber" 
+                name="Mobile_Number"
+                required 
+                pattern="[0-9]{10}"
+                placeholder="10-digit mobile number" 
+                class="w-full px-4 py-3 bg-neutral-900 border border-brand-cardBorder focus:border-brand-gold rounded text-sm text-white placeholder-stone-600 focus:outline-none"
+              />
+            </div>
+
+            <div>
+              <label for="serviceSelect" class="block text-xs uppercase font-bold tracking-wider text-brand-gold mb-2">Select Service *</label>
+              <select 
+                id="serviceSelect" 
+                name="Requested_Service"
+                required 
+                class="w-full px-4 py-3 bg-neutral-900 border border-brand-cardBorder focus:border-brand-gold rounded text-sm text-white focus:outline-none"
+              >
+                <option value="">-- Choose a Service --</option>
+                <optgroup label="Hair Care">
+                  <option value="Haircut (Men)">Haircut (Men) — ₹150</option>
+                  <option value="Haircut (Women)">Haircut (Women) — ₹250</option>
+                  <option value="Hair Styling">Hair Styling — ₹300</option>
+                  <option value="Blow Dry">Blow Dry — ₹300/₹500</option>
+                  <option value="Keratin Treatment">Keratin Treatment — From ₹3,000</option>
+                  <option value="Smoothening">Smoothening — From ₹2,000</option>
+                  <option value="Hair Botox">Hair Botox — From ₹2,500</option>
+                  <option value="Hair Color / Highlights">Hair Color / Highlights — From ₹1,500</option>
+                </optgroup>
+                <optgroup label="Skin & Facial">
+                  <option value="Hydra Facial">Hydra Facial — ₹1,200</option>
+                  <option value="O3+ Facial">O3+ Facial — ₹1,800</option>
+                  <option value="Gold Facial">Gold Facial — ₹1,000</option>
+                  <option value="Clean-Up">Clean-Up — ₹500</option>
+                  <option value="Skin Polishing">Skin Polishing — ₹1,000</option>
+                  <option value="Detan Treatment">Detan Treatment — ₹800</option>
+                </optgroup>
+                <optgroup label="Makeup & Bridal">
+                  <option value="Full Bridal Package">Full Bridal Package — ₹25,000</option>
+                  <option value="Bridal Makeup">Bridal Makeup — ₹15,000</option>
+                  <option value="Engagement Makeup">Engagement Makeup — ₹3,500</option>
+                  <option value="Airbrush Makeup">Airbrush Makeup — ₹4,000</option>
+                  <option value="HD Makeup">HD Makeup — ₹3,000</option>
+                  <option value="Party Makeup">Party Makeup — ₹2,500</option>
+                  <option value="Nail Extensions">Nail Extensions — ₹1,500</option>
+                </optgroup>
+                <optgroup label="Men's Grooming">
+                  <option value="Beard Trim / Shave">Beard Trim / Shave — ₹200/₹100</option>
+                  <option value="Head Massage">Head Massage — ₹200</option>
+                  <option value="Face Detox">Face Detox — ₹600</option>
+                  <option value="Men's De-Tan">Men's De-Tan — ₹700</option>
+                  <option value="Manicure / Pedicure">Manicure / Pedicure — ₹400/₹500</option>
+                </optgroup>
+              </select>
+            </div>
+
+            <div class="grid grid-cols-2 gap-3">
+              <div>
+                <label for="preferredDate" class="block text-xs uppercase font-bold tracking-wider text-brand-gold mb-2">Date *</label>
+                <input 
+                  type="date" 
+                  id="preferredDate" 
+                  name="Booking_Date"
+                  required 
+                  class="w-full px-3 py-3 bg-neutral-900 border border-brand-cardBorder focus:border-brand-gold rounded text-sm text-white focus:outline-none"
+                />
+              </div>
+              <div>
+                <label for="preferredTime" class="block text-xs uppercase font-bold tracking-wider text-brand-gold mb-2">Time (8 AM - 11 PM) *</label>
+                <input 
+                  type="time" 
+                  id="preferredTime" 
+                  name="Booking_Time"
+                  min="08:00"
+                  max="23:00"
+                  required 
+                  class="w-full px-3 py-3 bg-neutral-900 border border-brand-cardBorder focus:border-brand-gold rounded text-sm text-white focus:outline-none"
+                />
+              </div>
+            </div>
+
+          </div>
+
+          <div>
+            <label for="bookingMessage" class="block text-xs uppercase font-bold tracking-wider text-brand-gold mb-2">Special Request / Message (Optional)</label>
+            <textarea 
+              id="bookingMessage" 
+              name="Special_Message"
+              rows="3" 
+              placeholder="Tell us if you have sensitive skin, specific bridal requirements, or stylist preference..." 
+              class="w-full px-4 py-3 bg-neutral-900 border border-brand-cardBorder focus:border-brand-gold rounded text-sm text-white placeholder-stone-600 focus:outline-none"
+            ></textarea>
+          </div>
+
+          <div id="bookingConfirmationAlert" class="hidden p-4 rounded bg-emerald-950/80 border border-emerald-500 text-emerald-200 text-xs sm:text-sm">
+            <i class="fa-solid fa-circle-check mr-2 text-emerald-400"></i>
+            Thank you! Your appointment request has been sent to our email. We will confirm your booking shortly.
+          </div>
+          <div id="bookingErrorAlert" class="hidden p-4 rounded bg-red-950/80 border border-red-500 text-red-200 text-xs sm:text-sm">
+            <i class="fa-solid fa-circle-xmark mr-2 text-red-400"></i>
+            Oops! Something went wrong. Please try booking via WhatsApp.
+          </div>
+
+          <div class="flex flex-col sm:flex-row items-center gap-4 pt-2">
+            <button 
+              type="submit" 
+              id="submitBtn"
+              class="w-full sm:flex-1 bg-gold-gradient text-neutral-950 font-bold py-3.5 px-6 rounded text-xs uppercase tracking-widest shadow hover:brightness-110 transition flex items-center justify-center gap-2"
+            >
+              <i class="fa-solid fa-envelope"></i> Book Appointment
+            </button>
+            <button 
+              type="button" 
+              onclick="bookViaWhatsApp()" 
+              class="w-full sm:flex-1 bg-emerald-600 hover:bg-emerald-500 text-white font-bold py-3.5 px-6 rounded text-xs uppercase tracking-widest shadow transition flex items-center justify-center gap-2"
+            >
+              <i class="fa-brands fa-whatsapp text-lg"></i> Book via WhatsApp
+            </button>
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT & GOOGLE MAPS SECTION -->
+  <section id="contact" class="py-24 bg-brand-dark relative border-t border-brand-cardBorder">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        
+        <div class="lg:col-span-5 flex flex-col justify-between">
+          <div>
+            <div class="ornament-line !justify-start mb-3">
+              <span class="text-brand-gold text-xs font-bold uppercase tracking-[0.3em]">Visit Our Salon</span>
+            </div>
+            <h2 class="text-3xl sm:text-4xl font-serif font-bold text-white mb-6">Contact & Location</h2>
+            
+            <p class="text-stone-400 text-sm leading-relaxed mb-8">
+              We look forward to welcoming you to The Raghu’s Maxwell. Walk in or call ahead to ensure timely styling.
+            </p>
+
+            <div class="space-y-6">
+              
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded bg-brand-card border border-brand-gold/40 flex items-center justify-center text-brand-gold flex-shrink-0 mt-1">
+                  <i class="fa-solid fa-map-location-dot"></i>
+                </div>
+                <div>
+                  <h4 class="text-xs uppercase font-bold tracking-wider text-brand-goldLight mb-1">Salon Address</h4>
+                  <p class="text-stone-300 text-sm font-medium">The Raghu’s Maxwell Unisex Salon</p>
+                  <p class="text-stone-400 text-xs sm:text-sm mt-0.5 leading-relaxed">
+                    HP Dude Marg, Nav Prabha Bhavan, Betiahata, Gorakhpur, Uttar Pradesh, India
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded bg-brand-card border border-brand-gold/40 flex items-center justify-center text-brand-gold flex-shrink-0 mt-1">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div>
+                  <h4 class="text-xs uppercase font-bold tracking-wider text-brand-goldLight mb-1">Phone / WhatsApp</h4>
+                  <a href="tel:+919506675555" class="text-white hover:text-brand-gold text-base font-semibold transition block">
+                    +91 95066 75555
+                  </a>
+                  <p class="text-stone-300 text-xs mt-1">
+                    <span class="text-brand-gold font-semibold">Opening Hours:</span> 8:00 AM – 11:00 PM (Everyday)
+                  </p>
+                </div>
+              </div>
+
+              <div class="flex items-start gap-4">
+                <div class="w-10 h-10 rounded bg-brand-card border border-brand-gold/40 flex items-center justify-center text-brand-gold flex-shrink-0 mt-1">
+                  <i class="fa-solid fa-envelope"></i>
+                </div>
+                <div>
+                  <h4 class="text-xs uppercase font-bold tracking-wider text-brand-goldLight mb-1">Email Us</h4>
+                  <p class="text-stone-300 text-sm">Raghusharma911@gmail.com</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+          <div class="flex flex-wrap gap-3 mt-10">
+            <a href="tel:+919506675555" class="bg-brand-gold hover:bg-brand-goldLight text-brand-black font-bold px-5 py-2.5 rounded text-xs uppercase tracking-wider transition flex items-center gap-2">
+              <i class="fa-solid fa-phone"></i> Call Now
+            </a>
+            <a href="https://wa.me/919506675555" target="_blank" rel="noopener" class="bg-emerald-600 hover:bg-emerald-500 text-white font-bold px-5 py-2.5 rounded text-xs uppercase tracking-wider transition flex items-center gap-2">
+              <i class="fa-brands fa-whatsapp"></i> WhatsApp
+            </a>
+            <a href="https://maps.google.com/?q=Nav+Prabha+Bhavan+Betiahata+Gorakhpur" target="_blank" rel="noopener" class="border border-brand-gold/50 text-brand-gold hover:bg-brand-gold/10 font-bold px-5 py-2.5 rounded text-xs uppercase tracking-wider transition flex items-center gap-2">
+              <i class="fa-solid fa-diamond-turn-right"></i> Get Directions
+            </a>
+          </div>
+
+        </div>
+
+        <div class="lg:col-span-7">
+          <div class="border border-brand-gold/30 rounded-xl overflow-hidden shadow-2xl h-[420px] bg-neutral-900 relative">
+            <iframe 
+              title="The Raghu's Maxwell Unisex Salon Betiahata Gorakhpur Map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3563.1493635790515!2d83.370966!3d26.753889!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3991443653198031%3A0x8ff610998f480ff!2sBetiahata%2C%20Gorakhpur%2C%20Uttar%20Pradesh!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin" 
+              width="100%" 
+              height="100%" 
+              style="border:0; filter: contrast(105%) grayscale(25%);" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            <div class="absolute bottom-4 left-4 bg-brand-black/90 border border-brand-gold/50 px-4 py-2 rounded text-xs text-brand-goldLight backdrop-blur">
+              <i class="fa-solid fa-location-dot text-brand-gold mr-1.5"></i> Nav Prabha Bhavan, Betiahata
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- LUXURIOUS FOOTER -->
+  <footer class="bg-neutral-950 border-t border-brand-gold/30 text-stone-300 pt-16 pb-8">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-14">
+        
+        <div>
+          <span class="text-brand-gold font-serif text-2xl tracking-[0.2em] font-bold uppercase block">
+            THE RAGHU’S
+          </span>
+          <span class="text-xs uppercase font-bold tracking-[0.35em] text-white block -mt-1">
+            MAXWELL UNISEX SALON
+          </span>
+          <p class="font-serif italic text-brand-goldLight text-sm mt-3">
+            “Style • Confidence • You”
+          </p>
+          <p class="text-stone-400 text-xs mt-3 leading-relaxed">
+            Gorakhpur’s prime boutique studio for refined hair artistry, skin rejuvenating therapies, and bridal elegance.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="text-xs uppercase font-bold tracking-[0.2em] text-brand-gold mb-4">Quick Navigation</h4>
+          <ul class="space-y-2 text-xs uppercase tracking-wider font-medium text-stone-400">
+            <li><a href="#home" class="hover:text-brand-gold transition">Home</a></li>
+            <li><a href="#services" class="hover:text-brand-gold transition">Services Menu</a></li>
+            <li><a href="#pricing" class="hover:text-brand-gold transition">Complete Price List</a></li>
+            <li><a href="#bridal" class="hover:text-brand-gold transition">Bridal Packages</a></li>
+            <li><a href="#gallery" class="hover:text-brand-gold transition">Salon Gallery</a></li>
+            <li><a href="#about" class="hover:text-brand-gold transition">About Us</a></li>
+            <li><a href="#contact" class="hover:text-brand-gold transition">Contact & Location</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="text-xs uppercase font-bold tracking-[0.2em] text-brand-gold mb-4">Contact Info</h4>
+          <p class="text-xs text-stone-300 leading-relaxed mb-3">
+            <strong class="text-white block mb-0.5">The Raghu’s Maxwell</strong>
+            HP Dude Marg, Nav Prabha Bhavan,<br>
+            Betiahata, Gorakhpur, UP, India
+          </p>
+          <p class="text-xs text-stone-300 mb-1">
+            <span class="text-brand-gold">Phone:</span> 
+            <a href="tel:+919506675555" class="hover:text-brand-gold text-white font-medium ml-1">+91 95066 75555</a>
+          </p>
+          <p class="text-xs text-stone-300">
+            <span class="text-brand-gold">WhatsApp:</span> 9506675555
+          </p>
+          <p class="text-xs text-stone-300">
+            <span class="text-brand-gold">Email:</span> Raghusharma911@gmail.com
+          </p>
+        </div>
+
+        <div>
+          <h4 class="text-xs uppercase font-bold tracking-[0.2em] text-brand-gold mb-4">Opening Hours</h4>
+          <p class="text-xs text-stone-300 leading-relaxed mb-1 font-medium">
+            Monday – Sunday: <span class="text-brand-gold font-bold">8:00 AM – 11:00 PM</span>
+          </p>
+          <p class="text-xs text-stone-400 leading-relaxed mb-4">
+            Open 7 days a week for women & men.
+          </p>
+          <h5 class="text-[11px] uppercase tracking-wider text-stone-400 mb-2">Connect With Us</h5>
+          <div class="flex items-center space-x-3 text-lg">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Instagram" class="w-9 h-9 rounded bg-brand-card border border-stone-800 hover:border-brand-gold flex items-center justify-center text-stone-300 hover:text-brand-gold transition">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Facebook" class="w-9 h-9 rounded bg-brand-card border border-stone-800 hover:border-brand-gold flex items-center justify-center text-stone-300 hover:text-brand-gold transition">
+              <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="https://wa.me/919506675555" target="_blank" rel="noopener" aria-label="WhatsApp" class="w-9 h-9 rounded bg-brand-card border border-stone-800 hover:border-brand-gold flex items-center justify-center text-stone-300 hover:text-emerald-400 transition">
+              <i class="fa-brands fa-whatsapp"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="pt-8 border-t border-brand-cardBorder/60 flex flex-col sm:flex-row items-center justify-between text-xs text-stone-500 gap-4">
+        <p>© 2026 The Raghu’s Maxwell Unisex Salon. All Rights Reserved.</p>
+        <p class="flex items-center gap-1">
+          Designed with luxury <span class="text-brand-gold">Black & Gold</span> aesthetic for Betiahata, Gorakhpur
+        </p>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a 
+    href="https://wa.me/919506675555?text=Hello%20The%20Raghu's%20Maxwell%20Salon,%20I%20would%20like%20to%20book%20an%20appointment." 
+    target="_blank" 
+    rel="noopener"
+    aria-label="Direct WhatsApp Chat"
+    class="fixed bottom-6 right-6 z-40 bg-emerald-600 hover:bg-emerald-500 text-white w-14 h-14 rounded-full flex items-center justify-center shadow-2xl transition-transform duration-300 hover:scale-110 border-2 border-white/20"
+  >
+    <i class="fa-brands fa-whatsapp text-3xl"></i>
+  </a>
+
+  <!-- SCRIPTS (Body & Spa removed from pricing dataset) -->
+  <script>
+    const pricingData = [
+      // HAIR SERVICES
+      { category: 'hair', name: 'Haircut (Men)', price: '₹150', desc: 'Custom cut, wash consultation & basic neck shave' },
+      { category: 'hair', name: 'Haircut (Women)', price: '₹250', desc: 'Layered or precision styling cut tailored to face shape' },
+      { category: 'hair', name: 'Hair Styling', price: '₹300', desc: 'Ironing, curls, or formal party hair styling' },
+      { category: 'hair', name: 'Blow Dry (Short)', price: '₹300', desc: 'Volume blast and sleek blow-dry finishing' },
+      { category: 'hair', name: 'Blow Dry (Long)', price: '₹500', desc: 'Bouncy curls or ultra-smooth sleek styling' },
+      { category: 'hair', name: 'Smoothening (Short)', price: '₹2,000', desc: 'Glossy, frizz-free straight hair treatment' },
+      { category: 'hair', name: 'Smoothening (Long)', price: '₹3,000', desc: 'Long-lasting silky smooth hair transformation' },
+      { category: 'hair', name: 'Keratin Treatment (Short)', price: '₹3,000', desc: 'Protein replenishment for damaged hair' },
+      { category: 'hair', name: 'Keratin Treatment (Long)', price: '₹5,000', desc: 'Intensive restorative Keratin infusion therapy' },
+      { category: 'hair', name: 'Hair Color (Global)', price: '₹1,500', desc: 'Rich salon-grade full head color coverage' },
+      { category: 'hair', name: 'Highlights / Streaks', price: '₹2,000', desc: 'Dimensional balayage or foil highlight strands' },
+      { category: 'hair', name: 'Root Touch-Up', price: '₹1,000', desc: 'Quick 100% grey coverage root restoration' },
+      { category: 'hair', name: 'Hair Botox (Short)', price: '₹2,500', desc: 'Deep youth restoration & fiber nourishment' },
+      { category: 'hair', name: 'Hair Botox (Long)', price: '₹4,000', desc: 'Deep conditioning botox for lustrous hair' },
+      { category: 'hair', name: 'Scalp Treatment', price: '₹800', desc: 'Anti-dandruff or revitalizing scalp therapy' },
+
+      // SKIN & FACIAL
+      { category: 'skin', name: 'Clean-Up', price: '₹500', desc: 'Exfoliation, steam, gentle extraction, and pack' },
+      { category: 'skin', name: 'Fruit Facial', price: '₹700', desc: 'Natural vitamins and hydration for fresh glowing skin' },
+      { category: 'skin', name: 'Gold Facial', price: '₹1,000', desc: 'Radiant gold extract glow for special celebrations' },
+      { category: 'skin', name: 'Anti-Tan Facial', price: '₹1,000', desc: 'Restores skin clarity after sun exposure' },
+      { category: 'skin', name: 'Acne Control Facial', price: '₹1,200', desc: 'Purifying tea-tree and salicylic therapy' },
+      { category: 'skin', name: 'Hydra Facial', price: '₹1,200', desc: 'Deep hydro-dermabrasion pore infusion' },
+      { category: 'skin', name: 'O3+ Facial', price: '₹1,800', desc: 'High-potency skin whitening and glow treatment' },
+      { category: 'skin', name: 'Detan Treatment', price: '₹800', desc: 'Effective tan removal for instant freshness' },
+      { category: 'skin', name: 'Skin Polishing', price: '₹1,000', desc: 'Microderm polishing for velvety texture' },
+      { category: 'skin', name: 'Face Bleach', price: '₹600', desc: 'Even tone complexion enhancement' },
+      { category: 'skin', name: 'Diamond / Pearl Facial', price: '₹1,500', desc: 'Luminous sparkle and cell renewal facial' },
+      { category: 'skin', name: 'Whitening Treatment', price: '₹1,300', desc: 'Radiance brightening skin regimen' },
+
+      // MAKEUP SERVICES
+      { category: 'makeup', name: 'Party Makeup', price: '₹2,500', desc: 'Flawless makeup for guests and festive gatherings' },
+      { category: 'makeup', name: 'Engagement Makeup', price: '₹3,500', desc: 'Glamorous camera-ready engagement styling' },
+      { category: 'makeup', name: 'HD Makeup', price: '₹3,000', desc: 'Ultra-high definition seamless foundation base' },
+      { category: 'makeup', name: 'Airbrush Makeup', price: '₹4,000', desc: 'Feather-light silicon airbrush finish' },
+      { category: 'makeup', name: 'Reception Makeup', price: '₹3,500', desc: 'Regal look tailored for wedding receptions' },
+      { category: 'makeup', name: 'Saree Draping', price: '₹800', desc: 'Traditional and designer pleat draping styles' },
+      { category: 'makeup', name: 'Hair Do (With Makeup)', price: '₹4,000', desc: 'Coordinated hair styling combined with makeup' },
+      { category: 'makeup', name: 'Nail Extensions', price: '₹1,500', desc: 'Durable gel or acrylic nail extensions' },
+      { category: 'makeup', name: 'Nail Art', price: '₹500', desc: 'Creative hand-painted designs and glitter finishes' },
+      { category: 'makeup', name: 'Eyelash Extensions', price: '₹1,000', desc: 'Lush, fluttery semi-permanent lash extensions' },
+      { category: 'makeup', name: 'Eyebrow Shaping', price: '₹300', desc: 'Precision contouring and threading' },
+      { category: 'makeup', name: 'Eyelash Lift', price: '₹1,000', desc: 'Natural curl and lift for expressive eyes' },
+
+      // MEN'S GROOMING
+      { category: 'men', name: 'Beard Trim', price: '₹200', desc: 'Sharp edges and sculpted beard profiling' },
+      { category: 'men', name: 'Shave', price: '₹100', desc: 'Classic hot-towel straight razor smooth shave' },
+      { category: 'men', name: 'Hair Wash', price: '₹150', desc: 'Deep cleansing shampoo & light scalp refresh' },
+      { category: 'men', name: 'Head Massage', price: '₹200', desc: 'Pressure point stress-relief oil massage' },
+      { category: 'men', name: 'Face Detox', price: '₹600', desc: 'Charcoal and clay detox for men’s skin' },
+      { category: 'men', name: 'Manicure', price: '₹400', desc: 'Nail shaping, cuticle trimming, and scrub' },
+      { category: 'men', name: 'Pedicure', price: '₹500', desc: 'Foot soak, heel buffing, and relaxing massage' },
+      { category: 'men', name: 'Under Eye Treatment', price: '₹800', desc: 'Relief for dark circles and screen fatigue' },
+      { category: 'men', name: 'De-Tan', price: '₹700', desc: 'Neck and face sun-damage removal' },
+
+      // BRIDAL PACKAGES
+      { category: 'bridal', name: 'Bridal Makeup', price: '₹15,000', desc: 'Comprehensive luxury wedding day makeup' },
+      { category: 'bridal', name: 'Bridal Hair Style', price: '₹5,000', desc: 'Ornate buns, floral cascades, or braided looks' },
+      { category: 'bridal', name: 'Pre Bridal Services', price: '₹3,000', desc: 'Facial + Bleach + Clean Up prior to wedding' },
+      { category: 'bridal', name: 'Mehendi', price: '₹3,500', desc: 'Intricate bridal henna for hands and feet' },
+      { category: 'bridal', name: 'Bridal Facial', price: '₹2,500', desc: 'Exclusive bridal glow rejuvenation therapy' },
+      { category: 'bridal', name: 'Body Polishing', price: '₹2,500', desc: 'Full body exfoliated velvety bridal polish' },
+      { category: 'bridal', name: 'Full Bridal Package', price: '₹25,000', desc: 'Makeup + Hair + Mehendi + Facial + Draping' }
+    ];
+
+    let currentCategory = 'all';
+
+    function renderPricing(items) {
+      const container = document.getElementById('pricingGrid');
+      if (!items.length) {
+        container.innerHTML = `
+          <div class="col-span-full py-12 text-center text-stone-500">
+            <i class="fa-solid fa-circle-exclamation text-2xl mb-2 text-brand-gold/60"></i>
+            <p>No matching service found. Try a different search term or call us directly at 9506675555.</p>
+          </div>
+        `;
+        return;
+      }
+
+      container.innerHTML = items.map(item => `
+        <div class="bg-brand-card/90 border border-brand-cardBorder rounded-lg p-5 flex items-center justify-between hover:border-brand-gold/60 transition group">
+          <div class="pr-4">
+            <div class="flex items-center gap-2">
+              <h4 class="text-white font-serif font-bold text-base sm:text-lg group-hover:text-brand-goldLight transition">${item.name}</h4>
+              <span class="text-[9px] uppercase tracking-wider px-2 py-0.5 rounded bg-neutral-900 border border-brand-cardBorder text-stone-400 font-sans">${item.category}</span>
+            </div>
+            <p class="text-stone-400 text-xs mt-1 leading-snug">${item.desc}</p>
+          </div>
+          <div class="text-right flex-shrink-0">
+            <div class="text-brand-gold font-serif text-lg sm:text-xl font-bold">${item.price}</div>
+            <button onclick="prefillService('${item.name}')" class="mt-1 text-[10px] uppercase font-bold text-stone-400 hover:text-brand-gold tracking-widest flex items-center justify-end gap-1">
+              Book <i class="fa-solid fa-chevron-right text-[8px]"></i>
+            </button>
+          </div>
+        </div>
+      `).join('');
+    }
+
+    function filterCategory(cat) {
+      currentCategory = cat;
+      document.querySelectorAll('#categoryFilterContainer .filter-btn').forEach(btn => {
+        if (btn.getAttribute('data-cat') === cat) {
+          btn.classList.add('bg-brand-gold', 'text-brand-black', 'border-brand-gold');
+          btn.classList.remove('bg-brand-card', 'text-stone-300', 'border-brand-cardBorder');
+        } else {
+          btn.classList.remove('bg-brand-gold', 'text-brand-black', 'border-brand-gold');
+          btn.classList.add('bg-brand-card', 'text-stone-300', 'border-brand-cardBorder');
+        }
+      });
+      applySearchAndFilter();
+    }
+
+    function applySearchAndFilter() {
+      const searchTerm = document.getElementById('priceSearchInput').value.toLowerCase().trim();
+      const filtered = pricingData.filter(item => {
+        const matchesCategory = (currentCategory === 'all') || (item.category.toLowerCase() === currentCategory);
+        const matchesSearch = item.name.toLowerCase().includes(searchTerm) || item.desc.toLowerCase().includes(searchTerm);
+        return matchesCategory && matchesSearch;
+      });
+      renderPricing(filtered);
+    }
+
+    document.getElementById('priceSearchInput').addEventListener('input', applySearchAndFilter);
+    renderPricing(pricingData);
+
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    mobileMenuBtn.addEventListener('click', () => {
+      mobileMenu.classList.toggle('hidden');
+    });
+    document.querySelectorAll('.mobile-link').forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.add('hidden');
+      });
+    });
+
+    function prefillService(serviceName) {
+      const select = document.getElementById('serviceSelect');
+      let found = false;
+      for (let i = 0; i < select.options.length; i++) {
+        if (select.options[i].text.toLowerCase().includes(serviceName.toLowerCase())) {
+          select.selectedIndex = i;
+          found = true;
+          break;
+        }
+      }
+      if (!found) {
+        document.getElementById('bookingMessage').value = `Interested in service: ${serviceName}`;
+      }
+      window.location.hash = '#booking';
+    }
+
+    // Email Sending Form Action (FormSubmit AJAX)
+    document.getElementById('appointmentForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const form = this;
+      const submitBtn = document.getElementById('submitBtn');
+      const originalBtnText = submitBtn.innerHTML;
+      const alertBox = document.getElementById('bookingConfirmationAlert');
+      const errorBox = document.getElementById('bookingErrorAlert');
+      
+      alertBox.classList.add('hidden');
+      errorBox.classList.add('hidden');
+      
+      submitBtn.innerHTML = '<i class="fa-solid fa-spinner fa-spin"></i> Sending Request...';
+      submitBtn.disabled = true;
+
+      fetch("https://formsubmit.co/ajax/Raghusharma911@gmail.com", {
+        method: "POST",
+        body: new FormData(form)
+      })
+      .then(response => response.json())
+      .then(data => {
+        alertBox.classList.remove('hidden');
+        alertBox.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        form.reset();
+        submitBtn.innerHTML = originalBtnText;
+        submitBtn.disabled = false;
+      })
+      .catch(error => {
+        console.error('Error:', error);
+        errorBox.classList.remove('hidden');
+        submitBtn.innerHTML = originalBtnText;
+        submitBtn.disabled = false;
+      });
+    });
+
+    function bookViaWhatsApp() {
+      const name = document.getElementById('fullName').value.trim() || 'Client';
+      const phone = document.getElementById('mobileNumber').value.trim() || 'Not specified';
+      const service = document.getElementById('serviceSelect').value || 'Salon Consultation';
+      const date = document.getElementById('preferredDate').value || 'Soonest available';
+      const time = document.getElementById('preferredTime').value || 'Preferred slot';
+      const msg = document.getElementById('bookingMessage').value.trim();
+
+      let text = `Hello The Raghu's Maxwell Unisex Salon,%0A%0AI would like to book an appointment with the following details:%0A- *Name:* ${encodeURIComponent(name)}%0A- *Phone:* ${encodeURIComponent(phone)}%0A- *Service:* ${encodeURIComponent(service)}%0A- *Date:* ${encodeURIComponent(date)}%0A- *Time:* ${encodeURIComponent(time)}`;
+      
+      if (msg) {
+        text += `%0A- *Message:* ${encodeURIComponent(msg)}`;
+      }
+
+      window.open(`https://wa.me/919506675555?text=${text}`, '_blank');
+    }
+
+    // Gallery & Lightbox
+    function filterGallery(cat) {
+      document.querySelectorAll('.gallery-btn').forEach(btn => {
+        if (btn.getAttribute('data-gcat') === cat) {
+          btn.classList.add('bg-brand-gold', 'text-brand-black', 'border-brand-gold');
+          btn.classList.remove('bg-brand-card', 'text-stone-300', 'border-stone-800');
+        } else {
+          btn.classList.remove('bg-brand-gold', 'text-brand-black', 'border-brand-gold');
+          btn.classList.add('bg-brand-card', 'text-stone-300', 'border-stone-800');
+        }
+      });
+
+      const items = document.querySelectorAll('.gallery-item');
+      items.forEach(item => {
+        if (cat === 'all' || item.getAttribute('data-gcat') === cat) {
+          item.style.display = 'block';
+        } else {
+          item.style.display = 'none';
+        }
+      });
+    }
+
+    function openLightbox(src, caption) {
+      const modal = document.getElementById('lightboxModal');
+      const img = document.getElementById('lightboxImg');
+      const cap = document.getElementById('lightboxCaption');
+      img.src = src;
+      cap.textContent = caption;
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeLightbox() {
+      const modal = document.getElementById('lightboxModal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
+    document.getElementById('lightboxModal').addEventListener('click', (e) => {
+      if (e.target.id === 'lightboxModal') {
+        closeLightbox();
+      }
+    });
+
+    const today = new Date().toISOString().split('T')[0];
+    document.getElementById('preferredDate').min = today;
+  </script>
+</body>
+</html>
